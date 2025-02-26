@@ -1,0 +1,54 @@
+# Ignore dataset files
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.h5
+*.pickle
+*.zip
+
+# Ignore Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+**/.pycheckpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model files & large artifacts
+*.h5
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.pkl
+*.joblib
+*.pt
+*.weights
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.err
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore Jupyter Notebook metadata backups
+*.bak
+
+anaconda-projects/
